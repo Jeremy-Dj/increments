@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incrementz</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <script type="text/javascript" src="guts.js"></script>
+    <button class="wood" onclick="addwood(1)">Get Wood </button>
+    <div class="wood">Wood:<span id="woodcounter"></span></div>
+   <div class="woodworker">Woodworkers:<span id="woodworkers">0</span><br/>
+   Cost: <span id="woodworkersCost">10</span>Wood
+</div>
+    <button class="woodworkers" onclick="addwoodworker(1)">Add 1 Worker</button>
+    <button class="rawfood" onclick="addfood(1)">Forage some berries! </button>
+    <div class="rawfood">Raw foods: <span id="rawfood"></span></div>
+   <div class="farmers">Farmers:<span id="farmers">0</span><br/>
+   Cost: <span id="farmerCost">10</span>Raw Food
+</div>
+    <button class="miners" onclick="addfarmer(1)">Add 1 Farmer</button>
+    <button class="ore" onclick="addore(1)">Get raw Ore! </button>
+    <div class="ore">Ore:<span id="orecounter"></span></div>
+   <div class="miners">Miners:<span id="miners">0</span><br/>
+   Cost: <span id="minerCost">10</span>Steel
+</div>
+    <button class="miners" onclick="addminer(1)">Add 1 Miner</button>
+    <button class="steel" onclick="smelt(1)">Smelt some ore into steel</button>"
+    <div class="steelcounter">Steel:<span id="steel">0</span></div>
+</body>
+</html>
